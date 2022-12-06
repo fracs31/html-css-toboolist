@@ -71,25 +71,65 @@ body {
     padding: 15px;
 }
 
+/* Lista dei compiti */
 .tasks ul {
     padding: 20px;
 }
 
+/* Elemento della lista dei compiti */
 .tasks li {
     list-style: none;
+    margin-top: 5px;
 }
 
+/* Span con il simbolo "check" */
 .check {
+    display: inline-block;
     border: 1px solid green;
     color: green;
     padding: 5px;
     font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 
-.editorial {
-    background-color: dodgerblue;
+/* Span con il simbolo "cross" */
+.cross {
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+/* Span categoria */
+.category {
     color: white;
     border-radius: 10px;
     padding: 5px;
     font-size: 12px;
+}
+
+/* Categoria "editorial" */
+.editorial {
+    background-color: dodgerblue;
+}
+
+/* Categoria "q1 goals" */
+.q1-goals {
+    background-color: blueviolet;
+}
+
+/* Categioria "recruiting" */
+.recruiting {
+    background-color: green;
+}
+
+/* Categoria "mobile" */
+.mobile {
+    background-color: orange;
 }
