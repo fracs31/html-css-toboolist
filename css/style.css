@@ -54,6 +54,7 @@ body {
 .add-task {
     background-color: dodgerblue;
     color: white;
+    margin-left: 30px;
 }
 
 /* Opzione per l'aggiunta delle sezioni */
@@ -68,42 +69,49 @@ body {
     background-color: white;
     margin-top: 2px;
     border-radius: 0px 0px 4px 4px;
-    padding: 15px;
+    padding: 20px;
+}
+
+/* Nome compiti */
+.tasks h2 {
+    margin-left: 30px;
+    color: #343a40;
 }
 
 /* Lista dei compiti */
 .tasks ul {
     padding: 20px;
+    margin-left: 30px;
 }
 
 /* Elemento della lista dei compiti */
 .tasks li {
     list-style: none;
+    color: #343a40;
     margin-top: 5px;
+    vertical-align: middle;
+    margin-bottom: 20px;
 }
 
-/* Span con il simbolo "check" */
+/* Obiettivo */
+.goal {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* Obiettivo svolto */
 .check {
-    display: inline-block;
     border: 1px solid green;
     color: green;
-    padding: 5px;
-    font-weight: bold;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
 }
 
-/* Span con il simbolo "cross" */
+/* Obiettivo non svolto */
 .cross {
-    display: inline-block;
     border: 1px solid red;
     color: red;
-    padding: 5px;
-    font-weight: bold;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
 }
 
 /* Span categoria */
@@ -121,17 +129,17 @@ body {
 
 /* Categoria "q1 goals" */
 .q1-goals {
-    background-color: blueviolet;
+    background-color: #9d4edd;
 }
 
 /* Categioria "recruiting" */
 .recruiting {
-    background-color: green;
+    background-color: #52b788;
 }
 
 /* Categoria "mobile" */
 .mobile {
-    background-color: orange;
+    background-color: #f48c06;
 }
 
 /* Categoria "website" */
