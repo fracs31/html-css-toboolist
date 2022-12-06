@@ -8,7 +8,7 @@
 
 /* Body */
 body {
-    background-color: brown/*#f8f9fa*/;
+    background-color: #f8f9fa;
 }
 
 /* Header principale della pagina */
@@ -132,4 +132,14 @@ body {
 /* Categoria "mobile" */
 .mobile {
     background-color: orange;
+}
+
+/* Categoria "website" */
+.website {
+    background-color: palevioletred;
+}
+
+/* Categoria "sales" */
+.sales {
+    background-color: greenyellow;
 }
