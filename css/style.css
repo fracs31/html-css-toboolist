@@ -1,0 +1,24 @@
+/* Valori iniziali */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: brown;
+}
+
+/* Header principale della pagina */
+.main-header {
+    background-color: white;
+    padding: 10px;
+}
+
+/* H1 dell'header principale della pagina */
+.main-header h1 {
+    display: inline;
+    font-size: 42px;
+}
