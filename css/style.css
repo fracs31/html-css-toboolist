@@ -88,8 +88,6 @@ body {
 .tasks li {
     list-style: none;
     color: #343a40;
-    margin-top: 5px;
-    vertical-align: middle;
     margin-bottom: 20px;
 }
 
