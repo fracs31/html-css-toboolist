@@ -93,25 +93,25 @@ body {
     margin-bottom: 20px;
 }
 
-/* Obiettivo */
-.goal {
-    padding: 5px;
-    font-weight: bold;
-    font-size: 12px;
+/* Cerchio */
+.circle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    vertical-align: middle;
+    text-align: center;
 }
 
-/* Obiettivo svolto */
-.check {
-    border: 1px solid green;
+/* Cerchio verde */
+.green {
     color: green;
+    border: 1px solid green;
 }
 
-/* Obiettivo non svolto */
-.cross {
-    border: 1px solid red;
+/* Cerchio rosso */
+.red {
     color: red;
+    border: 1px solid red;
 }
 
 /* Span categoria */
