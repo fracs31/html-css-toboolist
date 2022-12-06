@@ -8,7 +8,7 @@
 
 /* Body */
 body {
-    background-color: brown;
+    background-color: brown/*#f8f9fa*/;
 }
 
 /* Header principale della pagina */
@@ -21,4 +21,34 @@ body {
 .main-header h1 {
     display: inline;
     font-size: 42px;
+    vertical-align: middle;
+}
+
+/* Immagine dell'header principale della pagina */
+.main-header img {
+    vertical-align: middle;
+}
+
+main {
+    background-color: red;
+}
+
+/* Contenitore della pagina */
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+    border: 1px solid violet;
+}
+
+/* Opzioni */
+.options {
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+/* Span delle opzioni */
+.options span {
+    
 }
