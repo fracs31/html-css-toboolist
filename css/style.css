@@ -29,26 +29,42 @@ body {
     vertical-align: middle;
 }
 
-main {
-    background-color: red;
-}
-
 /* Contenitore della pagina */
 .container {
     max-width: 900px;
     margin: 0px auto;
-    border: 1px solid violet;
 }
 
 /* Opzioni */
 .options {
     background-color: white;
-    border: 1px solid black;
+    border-radius: 4px 4px 0px 0px;
     margin-top: 50px;
-    padding: 15px;
+    padding: 20px;
 }
 
 /* Span delle opzioni */
 .options span {
-    
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Opzione per l'aggiunta delle tasks */
+.add-task {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Opzione per l'aggiunta delle sezioni */
+.add-section {
+    border: 1px solid #a5a5a5;
+    background-color: white;
+    color: #a5a5a5;
+}
+
+.tasks {
+    background-color: white;
+    margin-top: 2px;
+    border-radius: 0px 0px 4px 4px;
 }
